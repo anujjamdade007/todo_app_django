@@ -1,0 +1,228 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}
+}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Anuj Jamdade} \\ \vspace{1pt}
+    \small India $|$
+    \small 7218196979 $|$ \href{mailto:x@x.com}{\underline{jamdadeanuj@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/anuj-jamdade/}{\underline{linkedin.com/in/anuj-jamdade}} $|$
+    \href{https://github.com/anujjamdade007}{\underline{github.com/anujjamdade007}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {G. H Raisoni Collage Of Engineering And Management, Pune}{Pune , Maharashtra}
+      {Bachelor of Technology In COMPUTER SCIENCE And ENGINEERING(DATA SCIENCE)}{Dec. 2021 -- Jun 2025}
+    \resumeSubheading
+      {Kisan Veer Mahavidyalaya, Wai }{Wai, Maharashtra}
+      {Higher Secondary Education}{May. 2019 -- Aug 2021}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Graphic Designer Intern}{Sep 2022 -- Nov 2022}
+      {Scann.in}{Delhi, India}
+      \resumeItemListStart
+        \resumeItem{Design Various Mockups, Ads and many more material with help of \underline{Photoshop}
+        and \underline{Canva} for their social media}
+        \resumeItem{Make video ads and edit videos make reels for Instagram and Facebook}
+        \resumeItem{Manage Their social media handles
+        }
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+  %   \resumeSubheading
+  %     {Information Technology Support Specialist}{Sep. 2018 -- Present}
+  %     {Southwestern University}{Georgetown, TX}
+  %     \resumeItemListStart
+  %       \resumeItem{Communicate with managers to set up campus computers used on campus}
+  %       \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
+  %       \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+  %   \resumeItemListEnd
+
+  %   \resumeSubheading
+  %     {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
+  %     {Southwestern University}{Georgetown, TX}
+  %     \resumeItemListStart
+  %       \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
+  %       \resumeItem{Developed a game in Java to test the generated dungeons}
+  %       \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
+  %       \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
+  %       \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
+  %       \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+  %     \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf { Devsearch } $|$ \emph{Python, Django, HTML, CSS, Javascript, PostgreSQL}}{Feb 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend }
+            \resumeItem{Browse and Search Developers And Project: Users can browse and search for developers and Projects based on skills and expertise.}
+            \resumeItem{User Authentication: Users can sign up, log in, and manage their accounts securely.}
+            \resumeItem{Account Management: Users can edit or delete their account information.}
+            \resumeItem{Project Management: Users can create, edit, and delete their own projects.}
+            \resumeItem{Project Interaction: Users can comment on other projects to provide feedback or ask questions.}
+            \resumeItem{Messaging System: Users can send messages to developers and read inbox messages.}
+            \resumeItem{Password Reset: Users can reset their passwords via email for account recovery.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{ TODO Web App With Django} $|$ \emph{Python , Django , HTML , CSS , Bootstrap}}{Dec 2023 -- Jan 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a TODO Web App to Add Task with edit, update and delete option}
+            \resumeItem{project is a dynamic Todo app built using Python Django framework, integrating
+            HTML, \\CSS, and Bootstrap for a sleek user interface. }
+            \resumeItem{ It offers seamless task
+            management, prioritization, and collaboration features.}
+            
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Python, C/C++, SQL (Postgres), JavaScript, HTML/CSS, R} \\
+     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
+     \textbf{Developer Tools}{: Git, Docker, TravisCI, Google Cloud Platform, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
